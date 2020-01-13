@@ -5,7 +5,7 @@
 ##  Gradle start up script for UN*X
 ##
 ##############################################################################
-
+git update-index --chmod=+x gradlew
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
 PRG="$0"
@@ -170,4 +170,4 @@ if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
 fi
 
 exec "$JAVACMD" "$@"
-git update-index --chmod=+x gradlew
+
