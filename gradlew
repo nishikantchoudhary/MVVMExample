@@ -5,7 +5,7 @@
 ##  Gradle start up script for UN*X
 ##
 ##############################################################################
-git update-index --chmod=+x gradlew
+git update-index
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
 PRG="$0"
