@@ -1,6 +1,11 @@
-name: Android CI
+name: App Build
+variable:
 
-on: [push]
+on: [push, pull_request]
+  branches:
+    - master
+  schedule:
+    - cron:  '0 * * * *'
 
 jobs:
   build:
