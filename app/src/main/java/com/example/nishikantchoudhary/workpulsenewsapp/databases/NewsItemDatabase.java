@@ -8,7 +8,7 @@ import android.content.Context;
 import com.example.nishikantchoudhary.workpulsenewsapp.daos.NewsItemDAO;
 import com.example.nishikantchoudhary.workpulsenewsapp.models.NewsItem;
 
-@Database(entities = {NewsItem.class}, version = 2)
+@Database(entities = {NewsItem.class}, version = 2, exportSchema = false)
 public abstract class NewsItemDatabase extends RoomDatabase {
 
     public abstract NewsItemDAO newsItemDAO();
