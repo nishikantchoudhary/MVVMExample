@@ -1,6 +1,6 @@
-name: App Build
+name: MVVM App
 
-on: [push, pull_request]
+on: [push]
   branches:
     - master
   schedule:
